@@ -36,7 +36,7 @@ if (data) {
     pokemonImage.style.display = 'block';
     pokemonName.innerHTML = data.name;
     pokemonNumber.innerHTML = data.id;
-    pokemonImage.src = data['sprites']['versions']['generation-viii']['icons']['front_default'];
+    pokemonImage.src = data['sprites']['front_default'];
     searchPokemon = data.id;
 
     if (data.id === 1) {
